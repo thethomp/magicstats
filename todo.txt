@@ -1,0 +1,11 @@
+** Add capability to shuffle and deal the first 7 cards of the deck N number of times.
+
+** Output above results in a readable manner to stdin or to file... should have:
+	* Total number of times shuffled/dealt
+	* Show everything below, also show stats for every single shuffle individually to some log file.
+
+** After getting the N hands, calculate the following:
+	* Avg number of lands in hand
+	* Avg number of creatures in hand
+	* Avg number of instants/sorcerys/etc
+	* Avg number of non-land cards that are playable within the first X turns
