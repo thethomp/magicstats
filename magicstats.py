@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 ##############################################
 #
@@ -49,5 +49,3 @@ shuff = shuffler.shuffler(deck)
 
 # retrieve how many time the deck should be shuffled
 shuff.shuffle_deck(deck, True, shuffle_num, deal_num)
-
-

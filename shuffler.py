@@ -1,5 +1,4 @@
-#!/usr/bin/python
-
+#!/usr/bin/env python
 import os
 from operator import itemgetter
 from time import localtime, strftime

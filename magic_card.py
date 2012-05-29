@@ -1,5 +1,4 @@
-#!/usr/bin/python
-
+#!/usr/bin/env python
 # This class describes the Python MagicCard
 # object and all its attributes.
 

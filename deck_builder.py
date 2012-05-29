@@ -1,5 +1,4 @@
-#!/usr/bin/python
-
+#!/usr/bin/env python
 import sys
 from magic_card import *
 from deck import *
@@ -30,11 +29,11 @@ class deck_builder :
 		howmany = raw_input('How many of this card would you like to add to ' + deck.getName() + ': ' )
 		# To make sure the input is a number, if not, it's default is 1
 		try:
-    			howmany = int(howmany)
+			howmany = int(howmany)
 		except ValueError:
-    			howmany = 1
+			howmany = 1
 		# Add the specified number of cards to the deck	for i in range(0,howmany) :
-			deck.addCard(newcard)
+		deck.addCard(newcard)
 		# Return the deck with the new card(s) added
 		return deck		 
 
