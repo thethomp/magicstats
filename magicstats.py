@@ -23,8 +23,7 @@ import shuffler
 
 # Parse command line arguments
 parser = argparse.ArgumentParser(description='Run the MagicStats deck analysis program.')
-parser.add_argument('-f', '--file', type=argparse.FileType('r'), action='store', dest='deckfile', help='Input .deck format file')
-
+parser.add_argument('-f', '--file', type=argparse.FileType('r'), action='store', dest='deckfile', required=True, help='Input .deck format file')
 parser.add_argument('-s', '--shuffle', type=int, action='store', dest='shuffle_num', help='Number of times the deck should be shuffled before being delt (default=1)', default=1)
 parser.add_argument('-d', '--deal', type=int, action='store', dest='deal_num', help='Number of hands to deal (default=1)', default=1)
 
